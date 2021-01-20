@@ -1,0 +1,335 @@
+﻿<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<head>
+    <title>Excel Fonksiyonları</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="ust">
+        <div class="hamburger-container">
+            <div class="hamburgermenu"></div>
+            <div class="hamburgermenu"></div>
+            <div class="hamburgermenu"></div>
+        </div>
+        <ul>
+            <li><a href="index.html">Proje Ödevi</a></li>
+            <li><a href="ASP.html">ASP Uygulamaları</a></li>
+            <li><a href="excel.html">Temel ve Yararlı Excel Fonksiyonları</a></li>
+        </ul>
+    </div>
+
+    <div class="icerik" id="projelerim">
+        <table>
+
+            <tr>
+                <td class="ortala yanson" style="font-size: 25px;">$ Temel ve Yararlı Excel Fonksiyonları</td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuOrta">
+                    Microsoft Office Excel'de kullanılan temel ve yararlı olan bazı fonksiyonlar bulunmaktadır.Bu fonksiyonların ne işe yaradığını ve kullanımını örnekler üzerinde göstereğim.
+                </td>
+            </tr>
+            <tr>
+                <td class="ortala">
+                    <h2>A-)Metin Fonksiyonları</h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    1-)BÜYÜKHARF(metin):Tüm metni büyük harfle yazdırır.<br> 2-)KÜÇÜKHARF(metin):Tüm metni küçük harfle yazdırır.
+                    <br> 3-)YAZIM.DÜZENİ(metin):Metin içindeki her kelime'yi büyük harfle yazdırır.<br>
+
+                    <h3>Kullanımları</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/metinfonksiyonu123.png"></td>
+                </td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    4-)KIRP(metin):Birden fazla tekrar eden boşlukları siler.<br>
+                    <h3>Kullanımı</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/kirp.png"></td>
+                </td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    5-)ÖZDEŞ(metin1;metin2): iki metni karşılaştırır.Eğer iki metin aynı ise doğru,değilse yanlış değerini döndürür.
+                    <h3>Kullanımı</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/ozdes.png"></td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    6-)UZUNLUK(metin):bir metnin kaç karakterden oluştuğunu gösterir.
+                    <h3>Kullanımı</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/uzunluk.png"></td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    7-)BİRLEŞTİR(metin1;metin2):Verilen metinleri birleştirmek için kullanılır.& karakteri de aynı işlevi görmektedir.
+                    <h3>Kullanımları</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/birlestir.png"></td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    8-)YERİNEKOY(metin;eskimetin;yenimetin):Bir metin içinde, bir karakter dizisini başka bir karakter dizisi ile değiştirir.
+                    <h3>Kullanımı</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/yerinekoy.png"></td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    9-)SOLDAN(metin;alınacak_karakter_sayısı):Soldan,belirtilen karakter sayısı kadar karakter alır.
+                    <br> 10-)SAĞDAN(metin;alınacak_karakter_sayısı):Sağdan,belirtilen karakter sayısı kadar karakter alır.
+                    <br> 11-)PARÇAAL(metin;başlangıç_sayısı;alınacak_karakter_sayısı);belirli bir konumdan,istenilen karakter sayısı kadar karakter alır.
+                    <h3>Kullanımı</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/SagSolParcaal.png"></td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    12-)BUL(bul_metin;metin_içinde):Bir metin içinde aranan metin ya da karakter dizisinin konumunu verir.
+                    <h3>Kullanımı</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/bul.png"></td>
+            </tr>
+            <tr>
+                <td class="ortala">
+                    <h2>B-)Mantıksal Fonksiyonlar</h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    1-)EĞER(koşul;[koşul sağlandığında yapılacak işlem];[koşul sağlanmadığında yapılacak işlem]):Belirli bir koşula göre yapılacak olan işlemleri belirler.
+                    <h3>Kullanımı</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/eger.png"></td>
+            </tr>
+            <td class="yaziboyutuKucuk">
+                2-)EĞERORTALAMA(aralık;koşul;ortalaması_alınacak_aralık):Bir ölçüde göre belirtilen hücrelerin ortalamasını bulur.
+                <h3>Kullanımı</h3>
+            </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/egerortalama.png"></td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    3-)EĞERSAY(aralık;koşul):Belirli aralıkta,istenilen koşula uyan hücrelerin sayısını verir.
+                    <h3>Kullanımı</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/egersay.png"></td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    4-)ETOPLA:belirli bir koşul'a göre belirtilen aralığın toplamını alır.2 farklı kullanımı vardır.<br> &nbsp;&nbsp;&nbsp;&nbsp;Etopla(aralık;koşul):koşul sağlanan hücrelerin toplamını alır<br> &nbsp;&nbsp;&nbsp;&nbsp;Etopla(aralık;koşul;toplamı_alınacak_aralık):Koşul
+                    sağlanan hücrelere karşılık gelen diğer aralıktaki hücrelerin toplamını alır.
+
+                    <h3>Kullanımları</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <img src="assets/img/etopla1.png">
+                    <img src="assets/img/etopla2.png">
+                </td>
+            </tr>
+            <tr>
+                <td class="ortala">
+                    <h2>C-)Matematiksel Fonksiyonlar</h2>
+                </td>
+            </tr>
+            <tr>
+                <tr>
+                    <td class="yaziboyutuKucuk">
+                        1-)TOPLA(aralık):Belirli aralıktaki sayıların toplamını verir.
+                        <h3>Kullanımı</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center"><img src="assets/img/topla.png"></td>
+                </tr>
+                <tr>
+                    <td class="yaziboyutuKucuk">
+                        2-)ORTALAMA(aralık):Belirtilen aralıktaki sayıların ortalamasını alır.
+                        <h3>Kullanımı</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center"><img src="assets/img/ortalama.png"></td>
+                </tr>
+                <td class="yaziboyutuKucuk">
+                    3-)MİN(aralık):Belirtilen aralıktaki en küçük sayıyı bulur.
+                    <h3>Kullanımı</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/min.png"></td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    4-)MAK(aralık):Belirtilen aralıktaki en büyük sayıyı bulur.
+                    <h3>Kullanımı</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/mak.png"></td>
+            </tr>
+
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    5-)MUTLAK(sayı):bir sayının mutlak değerini alır.
+                    <h3>Kullanımı</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/mutlak.png"></td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    6-)MOD(sayı;bölen):Bir sayının başka bir sayıya bölümünden kalanı verir.
+                    <h3>Kullanımı</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/mod.png"></td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    7-)OBEB(aralık):Belirtilen aralıktaki sayıların ortak bölenini bulur.
+                    <h3>Kullanımı</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/obeb.png"></td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    8-)OKEK(aralık):Belirtilen aralıktaki sayıların en küçük ortak katını bulur.
+                    <h3>Kullanımı</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/okek.png"></td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    9-)ÇİFTMİ(sayı):Bir sayının çift olup olmadığını kontrol eder.Çift ise doğru,tek ise yanlış değerini verir.
+                    <h3>Kullanımı</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/ciftmi.png"></td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    10-)SATIRSAY(aralık):Belirtilen aralığın kaç satırdan oluştuğunu gösterir.
+                    <h3>Kullanımı</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/satirsay.png"></td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    11-)KAREKÖK(sayı):Bir sayının karekökünü alır.
+                    <h3>Kullanımı</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/karekok.png"></td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    12-)DELTA(sayı1;sayı2):İki sayının eşit olup olmadığını kontrol eder.İkisi eşitse 1,eşit değilse 0 sonucunu verir.
+                    <h3>Kullanımı</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/delta.png"></td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    13-)İŞARET(sayı):Sayının işaretini belirler. Sayı 0 ise 0,pozitif ise 1,negatif olduğunda ise -1 sonucunu verir.
+                    <h3>Kullanımı</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/isaret.png"></td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    14-)BAĞ_DEĞ_DOLU_SAY(aralık):Belirtilen aralıktaki dolu hücreleri sayar.<br> 15-)BOŞLUKSAY(aralık):Belirtilen aralıktaki boş hücreleri sayar.
+                    <h3>Kullanımları</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/BosDoluHücreSayisi.png"></td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    16-)ÇARPIM(aralık):Verilen aralıktaki tüm sayıları çarpar.
+                    <h3>Kullanımı</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/carpim.png"></td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    17-)RASTGELEARADA(alt;üst):Belirlediğimiz aralıkta rastgele sayı döndürür.
+                    <h3>Kullanımı</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/rastgelearada.png"></td>
+            </tr>
+            <tr>
+                <td class="ortala">
+                    <h2>D-)Yuvarlama Fonksiyonları</h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="yaziboyutuKucuk">
+                    1-)YUVARLA(sayı;[virgülden_sonra_istenen_basamak_sayısı]): Belirtilen sayıyı, virgülden sonra istenen basamak sayısına göre yuvarlar.<br> 2-)ÇİFT(sayı):Bir sayıyı, kendisine en yakın büyük çift sayıya yuvarlar.<br> 3-)TEK(sayı):Bir
+                    sayıyı, kendisine en yakın büyük tek sayıya yuvarlar.<br> 4-)Aşağıyuvarla(sayı;[virgülden_sonra_istenen_basamak_sayısı]): Sayıyı belirtilen basamak sayısına göre aşağıya yuvarlar.<br> 5-)Yukarıyuvarla(sayı;[virgülden_sonra_istenen_basamak_sayısı]):
+                    Sayıyı belirtilen basamak sayısına göre yukarıya yuvarlar.<br>
+                    <h3>Kullanımları</h3>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><img src="assets/img/YuvarlamaFonksiyonları.png"></td>
+            </tr>
+
+
+        </table>
+    </div>
+</body>
+
+</html>
